@@ -3,6 +3,8 @@
 # Defining essential directories
 
 # The root of the project
+export ANDROID_SDK_HOME=/home/codespace/android
+export ANDROID_NDK_HOME=/home/codespace/android/ndk/27.0.11902837/
 export BASE_DIR="$( cd "$( dirname "$0" )" && pwd )"
 # Directory that contains source code for FFmpeg and its dependencies
 # Each library has its own subdirectory
